@@ -18,7 +18,7 @@
  */
 function getPositiveNumbers(numbers) {
     console.log(numbers);
-
+    return numbers.filter(number => number > 0);
 }
 
 // sample usage (do not modify)
