@@ -4,7 +4,7 @@
  * @returns 
  */
 function sayLouder(text) {
-
+    return text.toUpperCase();
 }
 
 // sample usage (do not modify)
