@@ -1,12 +1,12 @@
-/**
- * 
- * @param {*} text 
- * @returns 
- */
-function sayLouder(text) {
-    return text.toUpperCase();
-}
+// /**
+//  * 
+//  * @param {*} text 
+//  * @returns 
+//  */
+// function sayLouder(text) {
+//     return text.toUpperCase();
+// }
 
-// sample usage (do not modify)
-console.log(sayLouder("It works"))
-console.log(sayLouder("how are you?"));
+// // sample usage (do not modify)
+// console.log(sayLouder("It works"))
+// console.log(sayLouder("how are you?"));
