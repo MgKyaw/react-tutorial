@@ -29,7 +29,7 @@
  */
 function getPassingTests(results) {
     console.log(results);
-
+    return results.filter(result => result.grade >= 10);
 }
 
 // sample usage (do not modify)
