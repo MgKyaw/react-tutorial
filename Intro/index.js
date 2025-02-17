@@ -47,6 +47,7 @@
 
 // Import react
 import React from "react";
+import {createRoot} from "react-dom/client";
 
 function getReactVersion() {
     return React.version;
@@ -80,3 +81,6 @@ function createTitle() {
 
 // sample usage (do not modify)
 console.log(createTitle());
+
+const root = document.querySelector("#root");
+createRoot(root).render(React.createElement("p", {}, "Hello World"));
