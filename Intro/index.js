@@ -72,3 +72,10 @@ function createDivElement() {
 // sample usage (do not modify)
 console.log(createDivElement());
 
+function createTitle() {
+    
+
+}
+
+// sample usage (do not modify)
+console.log(createTitle());
