@@ -82,5 +82,6 @@ function createTitle() {
 // sample usage (do not modify)
 console.log(createTitle());
 
-const root = document.querySelector("#root");
-createRoot(root).render(React.createElement("p", {}, "Hello World"));
+const root = document.querySelector("#react-root");
+const element = React.createElement("p", {}, "Hello World");
+createRoot(root).render(element);
