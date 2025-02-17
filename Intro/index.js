@@ -54,3 +54,13 @@ function getReactVersion() {
 
 // sample usage (do not modify)
 console.log(getReactVersion());
+
+function createCard() {
+
+
+    
+}
+
+// sample usage (do not modify)
+console.log(createCard());
+
