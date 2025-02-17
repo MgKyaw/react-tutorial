@@ -46,10 +46,10 @@
 // console.log(getPassingTests(data))
 
 // Import react
-
+import React from "react";
 
 function getReactVersion() {
-
+    return React.version;
 }
 
 // sample usage (do not modify)
