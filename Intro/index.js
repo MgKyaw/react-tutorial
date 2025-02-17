@@ -56,7 +56,7 @@ function getReactVersion() {
 console.log(getReactVersion());
 
 function createCard() {
-    var element = document.createElement('div');
+    const element = document.createElement("div");
     element.className = "card";
     return element;
 }
