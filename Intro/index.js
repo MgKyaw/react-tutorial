@@ -65,7 +65,8 @@ function createCard() {
 console.log(createCard());
 
 function createDivElement() {
-
+    const div = React.createElement("div", {}, "Hello World!");
+    return div;
 }
 
 // sample usage (do not modify)
