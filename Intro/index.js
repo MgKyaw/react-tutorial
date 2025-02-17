@@ -73,8 +73,9 @@ function createDivElement() {
 console.log(createDivElement());
 
 function createTitle() {
-    
+    const title = React.createElement("h1", { "className": "hero-title" }, "Welcome to our supermarket");
 
+    return title;
 }
 
 // sample usage (do not modify)
