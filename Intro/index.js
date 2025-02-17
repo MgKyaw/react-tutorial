@@ -64,3 +64,10 @@ function createCard() {
 // sample usage (do not modify)
 console.log(createCard());
 
+function createDivElement() {
+
+}
+
+// sample usage (do not modify)
+console.log(createDivElement());
+
