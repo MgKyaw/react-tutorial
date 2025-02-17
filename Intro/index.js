@@ -44,3 +44,13 @@
 //     grade: 18
 // }]
 // console.log(getPassingTests(data))
+
+// Import react
+
+
+function getReactVersion() {
+
+}
+
+// sample usage (do not modify)
+console.log(getReactVersion());
