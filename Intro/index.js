@@ -105,9 +105,20 @@
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<p id="promo" className="selected">Hello World</p>);
 
-function getTagline() {
-    return <h2 className="subtitle">Grocery shopping simplified.</h2>;
+// function getTagline() {
+//     return <h2 className="subtitle">Grocery shopping simplified.</h2>;
+// }
+
+// // sample usage (do not modify)
+// console.log(getTagline());
+
+/**
+ * @param {boolean} is_loggedin
+ */
+function getLoginStatus(is_loggedin) {
+
 }
 
 // sample usage (do not modify)
-console.log(getTagline());
+console.log(getLoginStatus(true));
+console.log(getLoginStatus(false));
