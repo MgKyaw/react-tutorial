@@ -86,6 +86,6 @@ console.log(createTitle());
 // const element = React.createElement("p", {}, "Hello World");
 // createRoot(root).render(element);
 
-const root = document.querySelector("#react-root");
-const element = React.createElement("h1", {}, "Online Supermarket");
-createRoot(root).render(element);
+// const root = document.querySelector("#react-root");
+// const element = React.createElement("h1", {}, "Online Supermarket");
+// createRoot(root).render(element);
