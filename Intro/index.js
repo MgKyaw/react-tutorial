@@ -104,3 +104,10 @@
 
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<p id="promo" className="selected">Hello World</p>);
+
+function getTagline() {
+
+}
+
+// sample usage (do not modify)
+console.log(getTagline());
