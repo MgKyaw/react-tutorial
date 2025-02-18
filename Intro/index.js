@@ -45,42 +45,42 @@
 // }]
 // console.log(getPassingTests(data))
 
-// Import react
-import React from "react";
-import {createRoot} from "react-dom/client";
+// // Import react
+// import React from "react";
+// import {createRoot} from "react-dom/client";
 
-function getReactVersion() {
-    return React.version;
-}
+// function getReactVersion() {
+//     return React.version;
+// }
 
-// sample usage (do not modify)
-console.log(getReactVersion());
+// // sample usage (do not modify)
+// console.log(getReactVersion());
 
-function createCard() {
-    const element = document.createElement("div");
-    element.className = "card";
-    return element;
-}
+// function createCard() {
+//     const element = document.createElement("div");
+//     element.className = "card";
+//     return element;
+// }
 
-// sample usage (do not modify)
-console.log(createCard());
+// // sample usage (do not modify)
+// console.log(createCard());
 
-function createDivElement() {
-    const div = React.createElement("div", {}, "Hello World!");
-    return div;
-}
+// function createDivElement() {
+//     const div = React.createElement("div", {}, "Hello World!");
+//     return div;
+// }
 
-// sample usage (do not modify)
-console.log(createDivElement());
+// // sample usage (do not modify)
+// console.log(createDivElement());
 
-function createTitle() {
-    const title = React.createElement("h1", { "className": "hero-title" }, "Welcome to our supermarket");
+// function createTitle() {
+//     const title = React.createElement("h1", { "className": "hero-title" }, "Welcome to our supermarket");
 
-    return title;
-}
+//     return title;
+// }
 
-// sample usage (do not modify)
-console.log(createTitle());
+// // sample usage (do not modify)
+// console.log(createTitle());
 
 // const root = document.querySelector("#react-root");
 // const element = React.createElement("p", {}, "Hello World");
@@ -97,5 +97,5 @@ console.log(createTitle());
 // const root = document.querySelector("#root");
 // createRoot(root).render(<h1>Hello World</h1>);
 
-const root = document.querySelector("#react-root");
-createRoot(root).render(<p>My first JSX</p>);
+// const root = document.querySelector("#react-root");
+// createRoot(root).render(<p>My first JSX</p>);
