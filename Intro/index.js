@@ -100,7 +100,7 @@
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<p>My first JSX</p>);
 
-import {createRoot} from "react-dom/client";
+// import {createRoot} from "react-dom/client";
 
-const root = document.querySelector("#react-root");
-createRoot(root).render(<p id="promo" className="selected">Hello World</p>);
+// const root = document.querySelector("#react-root");
+// createRoot(root).render(<p id="promo" className="selected">Hello World</p>);
