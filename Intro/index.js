@@ -94,5 +94,5 @@ console.log(createTitle());
 // const element = React.createElement("h1", { "className" : "title" }, "Online Supermarket");
 // createRoot(root).render(element);
 
-const root = document.querySelector("#root");
-createRoot(root).render(<h1>Hello World</h1>);
+// const root = document.querySelector("#root");
+// createRoot(root).render(<h1>Hello World</h1>);
