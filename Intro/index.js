@@ -163,3 +163,15 @@
 //     age: 27
 // });
 // console.log(element);
+
+function getPaymentButton(user) {    
+
+    return ;
+}
+
+// sample usage (do not modify)
+const user = {
+    id: 1,
+    is_loggedin: true
+}
+console.log(getPaymentButton(user));
