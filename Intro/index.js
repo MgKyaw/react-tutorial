@@ -151,3 +151,15 @@
 // }];
 // const element = getNotifications(notifications);
 // console.log(element);
+
+function getNavbar(user) {
+    
+}
+
+// sample usage (do not modify)
+const element = getNavbar({
+    firstName: "Sam",
+    lastName: "Dung",
+    age: 27
+});
+console.log(element);
