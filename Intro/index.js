@@ -153,7 +153,7 @@
 // console.log(element);
 
 function getNavbar(user) {
-    
+    return <div>Logged in as {user.firstName} {user.lastName}. Log out</div>;
 }
 
 // sample usage (do not modify)
