@@ -138,7 +138,7 @@
 // console.log(element);
 
 function getNotifications(notifications) {
-
+    return <p>You have {notifications.length} new notifications</p>;
 }
 
 // sample usage (do not modify)
