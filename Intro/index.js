@@ -127,7 +127,7 @@
 // console.log(getLoginStatus(false));
 
 function getNavbar(user) {
-
+    return <div>Logged in as {user.name}. Log out</div>;
 }
 
 // sample usage (do not modify)
