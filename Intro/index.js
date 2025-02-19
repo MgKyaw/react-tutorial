@@ -125,3 +125,14 @@
 // // sample usage (do not modify)
 // console.log(getLoginStatus(true));
 // console.log(getLoginStatus(false));
+
+function getNavbar(user) {
+
+}
+
+// sample usage (do not modify)
+const element = getNavbar({
+    name: "Sam",
+    age: 34
+});
+console.log(element);
