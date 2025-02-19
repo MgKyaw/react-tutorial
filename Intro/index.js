@@ -152,14 +152,14 @@
 // const element = getNotifications(notifications);
 // console.log(element);
 
-function getNavbar(user) {
-    return <div>Logged in as {user.firstName} {user.lastName}. Log out</div>;
-}
+// function getNavbar(user) {
+//     return <div>Logged in as {user.firstName} {user.lastName}. Log out</div>;
+// }
 
-// sample usage (do not modify)
-const element = getNavbar({
-    firstName: "Sam",
-    lastName: "Dung",
-    age: 27
-});
-console.log(element);
+// // sample usage (do not modify)
+// const element = getNavbar({
+//     firstName: "Sam",
+//     lastName: "Dung",
+//     age: 27
+// });
+// console.log(element);
