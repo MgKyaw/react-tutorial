@@ -164,14 +164,14 @@
 // });
 // console.log(element);
 
-function getPaymentButton(user) {    
-    const className = user.is_loggedin ? "clickable": "disabled";
-    return <button className={className}>Pay</button>;
-}
+// function getPaymentButton(user) {    
+//     const className = user.is_loggedin ? "clickable": "disabled";
+//     return <button className={className}>Pay</button>;
+// }
 
-// sample usage (do not modify)
-const user = {
-    id: 1,
-    is_loggedin: true
-}
-console.log(getPaymentButton(user));
+// // sample usage (do not modify)
+// const user = {
+//     id: 1,
+//     is_loggedin: true
+// }
+// console.log(getPaymentButton(user));
