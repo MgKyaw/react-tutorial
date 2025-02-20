@@ -175,3 +175,11 @@
 //     is_loggedin: true
 // }
 // console.log(getPaymentButton(user));
+
+function getPaymentMethod(name) {
+
+}
+
+// sample usage (do not modify)
+console.log(getPaymentMethod("Card"));
+console.log(getPaymentMethod("Paypal"));
