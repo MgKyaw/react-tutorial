@@ -176,13 +176,13 @@
 // }
 // console.log(getPaymentButton(user));
 
-function getPaymentMethod(name) {
-    const firstClass = "payment-method";
-    const secondClass = `option-${name.toLowerCase()}`;
+// function getPaymentMethod(name) {
+//     const firstClass = "payment-method";
+//     const secondClass = `option-${name.toLowerCase()}`;
 
-    return <li className={`${firstClass} ${secondClass}`}>{name}</li>;
-}
+//     return <li className={`${firstClass} ${secondClass}`}>{name}</li>;
+// }
 
-// sample usage (do not modify)
-console.log(getPaymentMethod("Card"));
-console.log(getPaymentMethod("Paypal"));
+// // sample usage (do not modify)
+// console.log(getPaymentMethod("Card"));
+// console.log(getPaymentMethod("Paypal"));
