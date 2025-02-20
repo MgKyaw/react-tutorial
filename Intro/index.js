@@ -186,3 +186,10 @@
 // // sample usage (do not modify)
 // console.log(getPaymentMethod("Card"));
 // console.log(getPaymentMethod("Paypal"));
+
+function getPaymentMethods() {
+
+}
+
+// sample usage (do not modify)
+console.log(getPaymentMethods());
