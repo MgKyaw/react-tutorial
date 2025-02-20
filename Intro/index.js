@@ -177,7 +177,10 @@
 // console.log(getPaymentButton(user));
 
 function getPaymentMethod(name) {
+    const firstClass = "payment-method";
+    const secondClass = `option-${name.toLowerCase()}`;
 
+    return <li className={`${firstClass} ${secondClass}`}>{name}</li>;
 }
 
 // sample usage (do not modify)
