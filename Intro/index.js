@@ -165,8 +165,8 @@
 // console.log(element);
 
 function getPaymentButton(user) {    
-
-    return ;
+    const className = user.is_loggedin ? "clickable": "disabled";
+    return <button className={className}>Pay</button>;
 }
 
 // sample usage (do not modify)
