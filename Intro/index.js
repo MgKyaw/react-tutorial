@@ -211,7 +211,7 @@
 // console.log(getDropdownMenu());
 
 function getUserAvatar(path) {
-
+    return <img src={path} />;
 }
 
 // sample usage (do not modify)
