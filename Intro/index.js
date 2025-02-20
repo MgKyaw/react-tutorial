@@ -197,3 +197,10 @@
 
 // // sample usage (do not modify)
 // console.log(getPaymentMethods());
+
+function getDropdownMenu() {
+
+}
+
+// sample usage (do not modify)
+console.log(getDropdownMenu());
