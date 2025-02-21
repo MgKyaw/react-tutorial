@@ -263,3 +263,4 @@ function Navbar() {
 const root = document.querySelector("#react-root");
 
 // TODO:
+createRoot(root).render(React.createElement(Navbar, {}));
