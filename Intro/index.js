@@ -233,16 +233,16 @@
 // // sample usage (do not modify)
 // console.log(getFooter());
 
-import {createRoot} from "react-dom/client";
+// import {createRoot} from "react-dom/client";
 
-function Hero() {
-    return (
-        <>
-            <h1>Welcome to our supermarket</h1>
-            <p>Start shopping.</p>
-        </>
-    );
-}
+// function Hero() {
+//     return (
+//         <>
+//             <h1>Welcome to our supermarket</h1>
+//             <p>Start shopping.</p>
+//         </>
+//     );
+// }
 
-// do not modify
-createRoot(document.querySelector("#react-root")).render(<Hero></Hero>);
+// // do not modify
+// createRoot(document.querySelector("#react-root")).render(<Hero></Hero>);
