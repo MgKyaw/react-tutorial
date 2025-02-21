@@ -232,3 +232,9 @@
 
 // // sample usage (do not modify)
 // console.log(getFooter());
+
+import {createRoot} from "react-dom/client";
+
+
+// do not modify
+createRoot(document.querySelector("#react-root")).render(<Hero></Hero>);
