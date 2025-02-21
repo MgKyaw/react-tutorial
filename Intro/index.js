@@ -247,20 +247,20 @@
 // // do not modify
 // createRoot(document.querySelector("#react-root")).render(<Hero></Hero>);
 
-import React from "react";
-import {createRoot} from "react-dom/client";
+// import React from "react";
+// import {createRoot} from "react-dom/client";
 
-// do not modify this function
-function Navbar() {
-    return (
-        <>
-            <h3>Supermarket</h3>
-            <p>Start shopping</p>
-        </>
-    );
-}
+// // do not modify this function
+// function Navbar() {
+//     return (
+//         <>
+//             <h3>Supermarket</h3>
+//             <p>Start shopping</p>
+//         </>
+//     );
+// }
 
-const root = document.querySelector("#react-root");
+// const root = document.querySelector("#react-root");
 
-// TODO:
-createRoot(root).render(React.createElement(Navbar, {}));
+// // TODO:
+// createRoot(root).render(React.createElement(Navbar, {}));
