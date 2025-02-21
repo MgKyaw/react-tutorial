@@ -265,8 +265,8 @@
 // // TODO:
 // createRoot(root).render(React.createElement(Navbar, {}));
 
-import {createRoot} from "react-dom/client";
-import Hero from "./Hero.js";
+// import {createRoot} from "react-dom/client";
+// import Hero from "./Hero.js";
 
-const root = document.querySelector("#react-root");
-createRoot(root).render(<Hero></Hero>);
+// const root = document.querySelector("#react-root");
+// createRoot(root).render(<Hero></Hero>);
