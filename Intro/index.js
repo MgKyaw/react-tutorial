@@ -270,3 +270,12 @@
 
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<Hero></Hero>);
+
+import {createRoot} from "react-dom/client";
+
+function App() {
+    return null;
+}
+
+// Sample usage (do not modify)
+createRoot(document.querySelector("#react-root")).render(<App />);
