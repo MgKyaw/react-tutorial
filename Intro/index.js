@@ -296,3 +296,26 @@
 
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<ShoppingCart count="5" />);
+
+import {createRoot} from "react-dom/client";
+
+function Navbar() {
+    return null;
+}
+
+let notifications = [{
+    id: 1,
+    text: "Order delivered"
+}, {
+    id: 2,
+    text: "Order received"
+}];
+
+const user = {
+    first_name: "Sam",
+    last_name: "Wolf"
+};
+
+const root = document.querySelector("#react-root");
+createRoot(root).render(<Navbar notifications={notifications} user={user} />);
+
