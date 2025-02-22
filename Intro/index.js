@@ -290,8 +290,8 @@
 
 import {createRoot} from "react-dom/client";
 
-function ShoppingCart() {
-    return <div></div>;
+function ShoppingCart(props) {
+    return <div>{props.count} items in your cart</div>;
 }
 
 const root = document.querySelector("#react-root");
