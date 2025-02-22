@@ -299,8 +299,13 @@
 
 import {createRoot} from "react-dom/client";
 
-function Navbar() {
-    return null;
+function Navbar(props) {
+    return (
+        <>
+            <div>Welcome {props.user.first_name} {props.user.last_name}</div>
+            <p>You've got {props.notifications.length} notifications</p>
+        </>
+    );
 }
 
 let notifications = [{
