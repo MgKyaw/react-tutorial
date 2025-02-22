@@ -327,9 +327,13 @@
 import {createRoot} from "react-dom/client";
 
 function Button(props) {
-    const size = props.size?.toLowerCase();
-    const className = size == "small" ? "btn-small" : size == "large" ? "btn-large" : "btn-medium";
-    return <button className={className}>Text here</button>;
+    const sizeClasses = {
+        small: "btn-small",
+        medium: "btn-medium",
+        large: "btn-large"
+    };
+
+    return <button className={sizeClasses[props.size?.toLowerCase()] || "btn-medium"}>Text here</button>;
 }
 
 const root = document.querySelector("#react-root");
