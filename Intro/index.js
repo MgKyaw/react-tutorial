@@ -272,9 +272,17 @@
 // createRoot(root).render(<Hero></Hero>);
 
 import {createRoot} from "react-dom/client";
+import Button from "./Button.js";
+import Link from "./Link.js";
 
 function App() {
-    return null;
+    return (
+        <>
+            <Button></Button>
+            <Button></Button>
+            <Link></Link>
+        </>
+    );
 }
 
 // Sample usage (do not modify)
