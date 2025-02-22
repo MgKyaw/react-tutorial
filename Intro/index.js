@@ -271,19 +271,19 @@
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<Hero></Hero>);
 
-import {createRoot} from "react-dom/client";
-import Button from "./Button.js";
-import Link from "./Link.js";
+// import {createRoot} from "react-dom/client";
+// import Button from "./Button.js";
+// import Link from "./Link.js";
 
-function App() {
-    return (
-        <>
-            <Button></Button>
-            <Button></Button>
-            <Link></Link>
-        </>
-    );
-}
+// function App() {
+//     return (
+//         <>
+//             <Button></Button>
+//             <Button></Button>
+//             <Link></Link>
+//         </>
+//     );
+// }
 
-// Sample usage (do not modify)
-createRoot(document.querySelector("#react-root")).render(<App />);
+// // Sample usage (do not modify)
+// createRoot(document.querySelector("#react-root")).render(<App />);
