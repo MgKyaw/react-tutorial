@@ -288,11 +288,11 @@
 // // Sample usage (do not modify)
 // createRoot(document.querySelector("#react-root")).render(<App />);
 
-import {createRoot} from "react-dom/client";
+// import {createRoot} from "react-dom/client";
 
-function ShoppingCart(props) {
-    return <div>{props.count} items in your cart</div>;
-}
+// function ShoppingCart(props) {
+//     return <div>{props.count} items in your cart</div>;
+// }
 
-const root = document.querySelector("#react-root");
-createRoot(root).render(<ShoppingCart count="5" />);
+// const root = document.querySelector("#react-root");
+// createRoot(root).render(<ShoppingCart count="5" />);
