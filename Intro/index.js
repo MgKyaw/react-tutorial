@@ -324,3 +324,12 @@
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<Navbar notifications={notifications} user={user} />);
 
+import {createRoot} from "react-dom/client";
+
+function Button() {
+    return <button>Text here</button>;
+}
+
+const root = document.querySelector("#react-root");
+createRoot(root).render(<Button size="small" />);
+
