@@ -360,10 +360,18 @@
 // createRoot(root).render(<Button className="primary">Login</Button>);
 
 import {createRoot} from "react-dom/client";
+import Link from "./Link.js";
+import Button from "./Button.js";
+import Container from "./Container.js";
+import Input from "./Input.js";
 
 function App() {
     return (<>
-
+        <Container>
+            <Link href="https://react-tutorial.app">Shop online</Link>
+            <Button type="submit" disabled="disabled">Submit</Button>
+            <Input type="email"></Input>
+        </Container>
     </>);
 }
 
