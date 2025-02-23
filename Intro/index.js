@@ -341,8 +341,8 @@
 
 import {createRoot} from "react-dom/client";
 
-function Button(){
-    return null;
+function Button(props){
+    return <button>{props.children}</button>;
 }
 
 const root = document.querySelector("#react-root");
