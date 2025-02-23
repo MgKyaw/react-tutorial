@@ -339,3 +339,12 @@
 // const root = document.querySelector("#react-root");
 // createRoot(root).render(<Button size="small" />);
 
+import {createRoot} from "react-dom/client";
+
+function Button(){
+    return null;
+}
+
+const root = document.querySelector("#react-root");
+
+createRoot(root).render(<Button>Login</Button>);
